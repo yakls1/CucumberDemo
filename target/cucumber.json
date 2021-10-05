@@ -3,39 +3,76 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-29T18:33:27.364Z",
+        "start_timestamp": "2021-10-05T13:27:05.063Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2204133200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "Edit functionality",
         "description": "",
         "id": "test-bla-bla;edit-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 623280400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 476465900,
+              "status": "passed"
             },
             "line": 4,
             "name": "the User is in the homePage",
-            "match": {},
+            "match": {
+              "location": "TestLeaft_step_definition.the_User_is_in_the_homePage()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 8955100,
+              "status": "passed"
             },
             "line": 5,
             "name": "verifying that title is \"TestLeaf - Selenium Playground\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestLeaf - Selenium Playground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "TestLeaft_step_definition.verifying_that_title_is(String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 165617100,
+              "status": "passed"
             },
             "line": 6,
             "name": "the User is clicking on the Edit button",
-            "match": {},
+            "match": {
+              "location": "TestLeaft_step_definition.the_User_is_clicking_on_the_Edit_button()"
+            },
             "keyword": "Then "
           }
         ],

@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
         tags= {"@TestLeaf, @Edit"},
         features= "src/test/features",
-        glue= "src/test/step_definitions"
+        glue= "step_definitions"
      ,dryRun = false
 )
 public class CukesRunnerTest {}
