@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.015281">
+<testcase classname="Test bla bla" name="Edit functionality" time="0.015281">
+<skipped><![CDATA[Given the User is in the homePage...........................................undefined
+And verifying that title is "TestLeaf - Selenium Playground"................undefined
+Then the User is clicking on the Edit button................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
